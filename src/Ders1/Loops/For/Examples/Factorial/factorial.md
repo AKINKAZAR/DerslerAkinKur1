@@ -1,0 +1,1 @@
+Girilen sayının faktörüyelini bulan programı while döngüsü ile yazalım.

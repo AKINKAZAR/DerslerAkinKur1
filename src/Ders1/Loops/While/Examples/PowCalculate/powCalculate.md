@@ -1,0 +1,1 @@
+Kullanıcıcıdan üslü işlem için alt ve üst değrleri alan ve üst hesaplama üslemi yapan program

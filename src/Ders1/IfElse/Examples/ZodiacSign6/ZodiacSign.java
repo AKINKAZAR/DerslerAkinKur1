@@ -140,7 +140,6 @@ public class ZodiacSign {
         } else {
             isError = true;
         }
-
         if (isError) {
             System.out.println("Hatalı Giriş Yaptınız!!!!");
         } else {
