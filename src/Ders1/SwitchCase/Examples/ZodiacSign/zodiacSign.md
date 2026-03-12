@@ -51,22 +51,22 @@ public class ZodiacSign {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Doğduğunuz Ayı Sayı olarak Giriniz: ");
-        month = input.nextInt();
-
-        System.out.print("Doğduğunuz Günü Sayı olarak Giriniz: ");
-        day = input.nextInt();
-
-        if (month == 1) {
-            if (day >= 1 && day <= 31) {
-                if (day <= 21) {
+  day <= 21) {
                     zodiac = "Oğlak Burcu";
                 } else {
                     zodiac = "Kova Burcu";
                 }
             } else {
                 isError = true;
-            }
+            }      System.out.print("Doğduğunuz Ayı Sayı olarak Giriniz: ");
+            month = input.nextInt();
+
+            System.out.print("Doğduğunuz Günü Sayı olarak Giriniz: ");
+            day = input.nextInt();
+
+            if (month == 1) {
+                if (day >= 1 && day <= 31) {
+                    if (
         } else if (month == 2) {
             if (day >= 1 && day <= 29) {
                 if (day <= 19) {
