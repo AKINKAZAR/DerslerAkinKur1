@@ -15,13 +15,15 @@ public class SumOddNumbers {
 
         int i = 1;
 
-        while (i <= number){
+        while (i <= number) {
 
-            if (i % 2 == 1){
+            if (i % 2 == 1) {
                 tekSayilarinToplami += i;
             }
             i++;
         }
-        System.out.println("Verdiğiniz " + number + " Sayısına kadar olan tek sayıların toplamı: " + tekSayilarinToplami);
+        System.out.println("Verdiğiniz " + number
+                + " Sayısına kadar olan tek sayıların toplamı: "
+                + tekSayilarinToplami);
     }
 }
