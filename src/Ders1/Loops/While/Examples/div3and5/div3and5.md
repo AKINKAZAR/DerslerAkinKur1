@@ -1,0 +1,1 @@
+Kullanıcıdan alınan sayıya kadar 3'e veya 5'e bölünen sayıları ekrana yazdıran programı while döngüsü ile yapalım.
