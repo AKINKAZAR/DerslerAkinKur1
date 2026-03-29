@@ -8,9 +8,7 @@ public class Main {
         int a;
         double b;
 
-        Scanner input = new Scanner();
-
-        System.out.println(2);
+        System.out.println(2 + 5);
         System.out.println("Akin");
         System.out.println("c");
         System.out.println(10.3);
@@ -20,6 +18,7 @@ public class Main {
         sum(10.0, 5);
         sum(6, 3, 17);
     }
+
 
     static void sum(int a, int b) {
         System.out.println(a + b);
@@ -33,7 +32,7 @@ public class Main {
         System.out.println(a + b);
     }
 
-    static void sum(int a, int b, int c) {
-        System.out.println(a + b);
+    static int sum(int a, int b, int c) {
+        return a + b;
     }
 }

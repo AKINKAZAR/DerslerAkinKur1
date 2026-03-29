@@ -5,12 +5,46 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       /* findEvenNumber();
-        System.out.println("Akın");
-        System.out.println("Akın");
-        System.out.println("Akın");
-        System.out.println("Akın");
-        findEvenNumber();*/
+        String name = "Akın";
+
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
+
+        System.out.println("-*--------------*-");
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(name);
+        }
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(name);
+        }
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(name);
+        }
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(name);
+        }
+
+        System.out.println("-*--------------*-");
+    }
+
+    void printName() {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Akın");
+        }
+    }
+}
 
      /*   System.out.println(5);
 
@@ -62,11 +96,13 @@ public class Main {
 /*
         greet("Akın" ,"Kazar");*/
 
+/*
 
         System.out.println(sum(5,10));
+*/
 
-    }
 
+/*
     static double sum(int a , double b) {
         double result = a + b;
         return result;
@@ -88,11 +124,4 @@ public class Main {
             }
         }
         System.out.println("-----------------------");
-    }
-
-
-
-
-
-
-}
+    }*/

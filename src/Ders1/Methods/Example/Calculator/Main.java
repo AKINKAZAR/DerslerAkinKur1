@@ -27,7 +27,8 @@ public class Main {
                 isEnd = false;
                 System.out.println("Çıkış Yapıldı!!");
             } else if (islem == 1) {
-                System.out.println(add(number1, number2));
+                int toplam = add(number1, number2);
+                System.out.println(toplam);
             } else if (islem == 2) {
                 System.out.println(subtract(number1, number2));
             } else if (islem == 3) {
